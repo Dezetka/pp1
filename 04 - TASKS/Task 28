@@ -1,0 +1,6 @@
+import binary_number 
+
+
+if __name__ == '__main__':
+    n = input('Enter binary number: ')
+    binary_number.f(n)

@@ -1,0 +1,5 @@
+import months 
+
+if __name__ == '__main__':
+    n = int(input('Enter month number:'))
+    months.months(n)

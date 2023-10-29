@@ -1,0 +1,2 @@
+pln = int(input('Enter the amount in PLN: '))
+

@@ -1,0 +1,6 @@
+registration = input('Enter vehicle registration numer: ')
+if registration[0] == 'K' and registration[1] == 'R' or registration[2] == 'K':
+    print('Car from Krakow:', registration[0] == 'K' and registration[1] == 'R' or registration[1] == 'R')
+else:
+    print("Car from Krakow:", registration[0] == 'K' and registration[1] == 'R' or registration[1] == 'K')
+

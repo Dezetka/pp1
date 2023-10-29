@@ -1,0 +1,34 @@
+science = input('Are you interested in computer sciene (Y/N):')
+game = input('Do you like playing computer games? (Y/N): ')
+instagram = input("Do you have an instagram account? (Y/N)):")
+
+if science  == 'Y':
+    science = True
+else:
+    sciene = False    
+
+if game == 'Y':
+    game = True
+else:
+    game = False  
+
+if instagram == 'Y':
+    instagram = True
+else:
+    instagram = False
+
+if science == True:
+    print('Interested in computer science:Yes')
+else:
+    print('Interested in computer science:No')
+
+if game == True:
+    print('Interested in games: Yes')
+else:
+    print('Interested in games: No')
+if instagram == True:
+    print('Has an instagram account: Yes')
+else:
+    print('Has instagram account: No')
+
+    

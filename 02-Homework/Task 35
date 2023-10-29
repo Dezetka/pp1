@@ -1,0 +1,7 @@
+circumference = int(input('Enter tree circumference: '))
+diameter = circumference / 3.14
+print(diameter)
+if diameter >= 50:
+    print('Tree can be cut down:', diameter >= 50 )
+elif diameter < 50:
+    print('Tree can be cut down:', diameter > 50 )

@@ -1,0 +1,6 @@
+number = int(input('Enter number:'))
+if number < 0:
+    print("Absolute value of the number is",-number)
+else:
+    print('Absolute value of the number is : ')
+          

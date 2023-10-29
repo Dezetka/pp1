@@ -1,0 +1,9 @@
+import random 
+a = random.randrange(1,7)
+b = input('Enter the number from 1 to 6: ')
+print(a)
+if a == b:
+    print(True)
+if a != b:
+    print(False)
+

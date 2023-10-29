@@ -1,0 +1,3 @@
+a = 4
+print('Volume of the cube:', a ** 3)
+print('Surface area of the cube:', a ** 2 * 6)

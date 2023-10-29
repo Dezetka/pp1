@@ -1,0 +1,50 @@
+jacket = 40
+underwear = 70
+shoes = 20
+washing_item = input('Enter washing product:')
+rinse = input('Additional rinse? Y/N:')
+spin = input('Additional spin? Y/N:')
+
+
+if rinse == 'Y':
+    rinse = True
+else:
+    rinse = False
+if spin == 'Y':
+    spin =True
+else:
+    spin = False    
+
+if washing_item == 'jacket':
+    washing_time = jacket 
+    if rinse and spin == True:  
+        washing_time += 24 
+    elif rinse == True:
+        washing_time += 15
+    elif spin == True:
+        washing_time += 9
+
+if washing_item == 'shoes':
+    washing_time = shoes
+    if rinse and spin == True:  
+        washing_time += 24 
+    elif rinse == True:
+        washing_time += 15
+    elif spin == True:
+        washing_time += 9
+
+if washing_item == 'underwear':
+    washing_time = underwear 
+    if rinse and spin == True:  
+        washing_time += 24 
+    elif rinse == True:
+        washing_time += 15
+    elif spin == True:
+        washing_time += 9
+print('Washing product:',washing_item)
+print("Total washing time:",washing_time )
+
+
+
+
+

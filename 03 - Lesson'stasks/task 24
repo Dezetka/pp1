@@ -1,0 +1,11 @@
+
+price = 200
+new_price = 140
+discount = new_price / price
+discount2 = (1 - discount) * 100 
+if discount2 >= 0.1:
+    print('Current produce price: 140.00')
+    print('Previous product price: 200.00')
+    print('Buy the product!!')
+    print(f'Product price reduced by {round(discount2)} %')
+

@@ -1,0 +1,8 @@
+import random
+a = random.randrange(1,7)
+print(a)
+if a == 1 or a == 6:
+    print("Special number:", a == 1 or a == 6)
+elif a != 1 and a != 6:
+    print("Special number:", a == 1 and a == 6  )
+          

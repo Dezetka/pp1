@@ -1,0 +1,6 @@
+a = int(input('Enter the first lenght of the triangle side: '))
+b = int(input("Enter the second lenght of the triangle side: "))
+c = int(input("Enter the third lenght of the triangle side: "))
+d = a + b + c    #Triangle circumference
+print("Triangle area: ", (d/2 * (d/2 - a) * (d/2 - b) * (d/2 - c))** 0.5)
+print('Triangle circumference', d)

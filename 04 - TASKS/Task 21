@@ -1,0 +1,18 @@
+
+from mykeyboard import read_number
+from mymath import generate_number
+
+def guess():
+
+    computer = generate_number()
+    user = read_number()
+    
+    print(f'Computer number:',computer)
+    
+    if computer == user:
+        print('You won the game!!')
+    else:
+        print('You lost the game!!')
+
+if __name__ == '__main__':
+    guess()

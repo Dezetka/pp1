@@ -1,0 +1,5 @@
+speed = int(input('Enter vechicle speed:' ))
+if speed >= 40 and speed <= 140:
+    print('Speed is valid:',speed >= 40 and speed <= 140)
+elif speed < 40 or speed > 140:
+    print("Speed is valid:",speed < 40 and speed > 140)

@@ -1,0 +1,5 @@
+a = int(input('Enter the number of rows: '))
+b = int(input("Enter the number of columns: "))
+
+for x in range(a):
+    print("*", end = "")

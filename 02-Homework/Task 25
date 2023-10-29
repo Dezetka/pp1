@@ -1,0 +1,11 @@
+#age = int(input("Enter your age: "))
+#if age <= 26:
+#    print('Exemption from paying taxes: True')
+#elif age > 26:
+#    print('Exemption from paying taxes: False')
+
+age = int(input('Enter your age: '))
+if age <= 26:
+    print("Exemption from paying taxes: ", age <= 26)
+elif age > 26:
+    print("Exemption from paying taxes: ", age < 26)

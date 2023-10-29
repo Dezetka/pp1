@@ -1,0 +1,13 @@
+dec = int(input('Enter decimal number:'))
+binary = []
+
+while dec > 0:
+    remainder = dec % 2
+    binary.append(remainder)
+    dec = dec // 2
+
+binary.reverse()
+
+binary = ''.join(map(str,binary))
+print(binary)
+

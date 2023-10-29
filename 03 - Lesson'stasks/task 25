@@ -1,0 +1,14 @@
+amount = int(input('Enter amount of products purchased: '))
+price = int(input("Enter price of the product: "))
+
+if amount > 2:
+    pay = 0
+    for i in range(2,amount):
+        pay = price * 2 
+    i = 2
+    while i in range(i,amount + 1):
+        i += 1
+        pay1 = pay +((amount - 2) * price) * 0.75
+print("Number of products purchased:",amount)
+print("Product price:",price)
+print('Amount to pay:',pay1)

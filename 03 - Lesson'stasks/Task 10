@@ -1,0 +1,6 @@
+questions_number = 100
+correct_answers = 51
+if correct_answers >= questions_number / 2:
+    print("Test passed")
+else:
+    print("Test failed")

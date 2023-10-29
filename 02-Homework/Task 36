@@ -1,0 +1,5 @@
+bank_buys = float(input('Bank buys euro: '))
+bank_sells = float(input('Bank sells euro: '))
+spread = round(bank_sells - bank_buys,5)
+print(spread)
+                    

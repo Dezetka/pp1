@@ -1,0 +1,13 @@
+import math
+
+log = math.log1p(5)
+print('The natural logarithm of 5 is equal to',log)
+
+e_power = math.exp(3)
+print('The e raised to the powers 3 is equal',e_power)
+
+sqrt_7 = math.sqrt(7)
+print('The square root of 7 is',sqrt_7)
+
+sin = math.radians(90)
+print('The value of sin90 is',math.sin(sin))

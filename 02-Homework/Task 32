@@ -1,0 +1,4 @@
+price = float(input('Enter the price:' ))
+print(price)
+vat = price * 0.23
+print('Vat 23%:', round(vat,2))

@@ -1,0 +1,5 @@
+import letterscounter
+
+
+if __name__ == '__main__':
+    letterscounter.letters_counter()

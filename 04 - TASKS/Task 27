@@ -1,0 +1,5 @@
+import credit_card
+
+
+if __name__ == '__main__':
+    credit_card.f('540312400019022')

@@ -1,0 +1,10 @@
+name = 'Piotrek'
+a = ord('P')
+b = ord('i')
+c = ord("o")
+d = ord('t')
+e = ord('r')
+g = ord('e')
+h = ord('k')
+print("Name:",name)
+print(f'P({a}) i({b}) o({c}) t({d}) r({e}) e({g}) k({h})')
