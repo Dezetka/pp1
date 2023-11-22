@@ -1,0 +1,7 @@
+Milk
+& "c:/Program Files/python/python.exe" "c:/Users/s-121-24/Desktop/pp1/Tasks 07/Task 14.py"
+Milk
+Kasza
+ryz
+kurczak
+maslo
